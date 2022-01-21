@@ -472,7 +472,9 @@ class MultiselectComboBox extends MultiselectComboBoxMixin(InputControlMixin(The
     this.__updateChips();
 
     // Re-render scroller
-    this.$.comboBox.$.dropdown._scroller.__virtualizer.update();
+    if (this.$.comboBox.$.dropdown._scroller.__virtualizer) {
+      this.$.comboBox.$.dropdown._scroller.__virtualizer.update();
+    }
 
     // Wait for chips to render
     requestAnimationFrame(() => {
