@@ -1,6 +1,6 @@
 {
   "name": "multiselect-combo-box",
-  "version": "2.4.2",
+  "version": "2.4.3",
   "main": "multiselect-combo-box.js",
   "module": "multiselect-combo-box.js",
   "description": "A multi select combo box web component based on Polymer 3 and the vaadin-combo-box",
@@ -37,14 +37,14 @@
   "dependencies": {
     "@open-wc/dedupe-mixin": "^1.3.0",
     "@polymer/polymer": "^3.0.0",
-    "@vaadin/combo-box": "^23.0.7",
-    "@vaadin/component-base": "^23.0.7",
-    "@vaadin/field-base": "^23.0.7",
-    "@vaadin/input-container": "^23.0.7",
-    "@vaadin/polymer-legacy-adapter": "^23.0.7",
-    "@vaadin/vaadin-lumo-styles": "^23.0.7",
-    "@vaadin/vaadin-material-styles": "^23.0.7",
-    "@vaadin/vaadin-themable-mixin": "^23.0.7"
+    "@vaadin/combo-box": "^23.1.4",
+    "@vaadin/component-base": "^23.1.4",
+    "@vaadin/field-base": "^23.1.4",
+    "@vaadin/input-container": "^23.1.4",
+    "@vaadin/polymer-legacy-adapter": "^23.1.4",
+    "@vaadin/vaadin-lumo-styles": "^23.1.4",
+    "@vaadin/vaadin-material-styles": "^23.1.4",
+    "@vaadin/vaadin-themable-mixin": "^23.1.4"
   },
   "devDependencies": {
     "@esm-bundle/chai": "^4.3.4",
